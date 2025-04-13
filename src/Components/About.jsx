@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='bg-[#fde6bb]'>
-      <p className='p-2 text-sm h-[100vh] w-[100vw]'>
+    <div className='bg-[#fde6bb] flex justify-center items-center '>
+      <p className='p-2 text-sm h-[100vh] w-[100vw] text-justify'>
       WINNERS Room is an educational website created by Phenius Peter (wallah) offering lecture notes
        and PDF resources for third-year semester 2 students, particularly those studying Geography and
         Kiswahili. The site provides various course materials to help students prepare for exams, though
