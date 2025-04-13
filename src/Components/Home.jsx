@@ -25,16 +25,16 @@ function Home() {
           onClick={()=>{
             setIshidden(!ishidden)
           }}><FiX /></button>
-          <Link to={"/edci312"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>EDCI 312 </Link>
-          <Link to={"/edci321"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>EDCI 321 </Link>
-          <Link to={"/edci335"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>EDCI 335 </Link>
-          <Link to={"/edci337"} className='bg-[#fadda6] text-[#b18585] rounded-md p-2 w-[90%] m-2'>EDCI 337 </Link>
-          <Link to={"/epsc331"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>EPSC 331 </Link>
-          <Link to={"/kisw311"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>KISW 311</Link>
-          <Link to={"/kisw310"} className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>KISW 310</Link>
-          <Link to={"/geog322" } className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>GEOG 322</Link>
-          <Link to={"/geog312" } className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>GEOG 312</Link>
-          <Link to={"/about" } className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2'>About</Link>
+          <Link to={"/edci312"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>EDCI 312 </Link>
+          <Link to={"/edci321"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>EDCI 321 </Link>
+          <Link to={"/edci335"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>EDCI 335 </Link>
+          <Link to={"/edci337"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>EDCI 337 </Link>
+          <Link to={"/epsc331"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>EPSC 331 </Link>
+          <Link to={"/kisw311"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>KISW 311</Link>
+          <Link to={"/kisw310"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>KISW 310</Link>
+          <Link to={"/geog322"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>GEOG 322</Link>
+          <Link to={"/geog312"}  className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>GEOG 312</Link>
+          <Link to={"/about" }   className='text-sm bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1'>About</Link>
         </nav>
 
         </div>
@@ -43,9 +43,9 @@ function Home() {
             className='h-[100vh] relative '></img>
         </div>
            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#f3e6b8]
-           border-[#24242b] text-[#f3e6b8] p-3 rounded w-[90%]'>
+           border-[#24242b] text-[#f3e6b8] p-1 rounded w-[90%]'>
             <h1 className='text-[#f3e6b8] text-4xl font-bold text-center bg-[#24242b] rounded p-2'>Y3 S2 STUDY ZONE</h1>
-            <p className='text-justify text-sm p-3 tracking-normal text-[#24242b] font-sans m-2'>
+            <p className='text-justify text-sm p-3 tracking-normal text-[#24242b] font-sans m-1'>
             This website is a dedicated study platform designed specifically for third-year Education students
             specializing in Geography and Kiswahili. It provides organized interactive study tools tailored to help students effectively prepare for their exams. With easy
             navigation and subject-specific resources, the platform supports self-paced learning and reinforces

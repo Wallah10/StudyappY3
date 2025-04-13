@@ -5,7 +5,7 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 function Edci337() {
   return (
     
-          <div className="bg-white rounded-md shadow-md p-2">
+          <div className="bg-white rounded-md shadow-md">
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
               <Viewer fileUrl="/docs/geogTmethods.pdf" />
             </Worker>

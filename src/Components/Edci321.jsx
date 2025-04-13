@@ -7,13 +7,13 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 function Edci321() {
   return (
-    <div className=" min-h-screen">
+    
       <div className="bg-[#f5f591] rounded-md shadow-md">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <Viewer fileUrl="/docs/itumanotes.pdf" />
         </Worker>
       </div>
-    </div>
+   
   );
 }
 
