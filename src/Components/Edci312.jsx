@@ -8,7 +8,7 @@ return (
        
               <div className="bg-white rounded-md shadow-md">
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-                  <Viewer fileUrl="/docs/edci312cbc.pdf" />
+                  <Viewer fileUrl="/docs/edci312cbc.pdf" className='w-[100vw]' />
                 </Worker>
               </div>
             

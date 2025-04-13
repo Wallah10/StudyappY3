@@ -43,7 +43,7 @@ function Home() {
             className='h-[100vh] relative '></img>
         </div>
            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#f3e6b8]
-           border-[#24242b] text-[#f3e6b8] p-1 rounded w-[90%] h-[40vh]'>
+           border-[#24242b] text-[#f3e6b8] p-1 rounded w-[90%] h-[30vh]'>
             <h1 className='text-[#f3e6b8] text-2xl font-bold text-center bg-[#24242b] rounded p-1'>Y3 S2 STUDY ZONE</h1>
             <p className='text-justify text-sm p-3 tracking-normal text-[#24242b] font-sans m-1'>
             This website is a dedicated study platform designed specifically for third-year Education students
