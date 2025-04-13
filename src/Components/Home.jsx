@@ -21,7 +21,7 @@ function Home() {
 
         <nav className={`bg-[#1d1d27] h-[100vh] w-[90%] fixed left-0 bottom-0 top-0
         flex flex-col justify-start items-start pl-3 ${ishidden?"block":"hidden"}`}>
-          <button className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-3 text-3xl font-extrabold'
+          <button className='bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1 text-sm font-extrabold'
           onClick={()=>{
             setIshidden(!ishidden)
           }}><FiX /></button>
@@ -43,9 +43,9 @@ function Home() {
             className='h-[100vh] relative '></img>
         </div>
            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-[#cca281]
-            text-[#cca281] p-1 rounded w-[90%] bg-transparent'>
+             p-1 rounded w-[90%] bg-[#f3e6b8]'>
             <h1 className='text-[#cca281] text-2xl font-bold text-center bg-[#24242b] rounded p-1'>Y3 S2 STUDY ZONE</h1>
-            <p className='text-justify text-sm p-3 tracking-normal text-[#24242b] font-sans m-1'>
+            <p className='text-justify text-sm p-3 tracking-normal text-[#fd8930] font-sans m-1'>
             This website is a dedicated study platform designed specifically for third-year Education students
             specializing in Geography and Kiswahili. It provides organized interactive study tools tailored to help students effectively prepare for their exams. With easy
             navigation and subject-specific resources, the platform supports self-paced learning and reinforces
