@@ -19,9 +19,9 @@ function Home() {
             <p className='text-sm font-thin'>Online studies for all</p>
            </div>
 
-        <nav className={`bg-[#1d1d27] h-[100vh] w-[90%] fixed left-0 bottom-0 top-0
+        <nav className={`bg-[#1d1d27] h-[100vh] w-[100%] fixed left-0 bottom-0 top-0
         flex flex-col justify-start items-start pl-3 ${ishidden?"block":"hidden"}`}>
-          <button className='bg-[#fadda6] text-[gray] rounded-md p-1 w-[90%] m-1 text-sm font-extrabold'
+          <button className='bg-[#fadda6] text-[gray] rounded-md p-2 w-[90%] m-2 text-sm font-extrabold'
           onClick={()=>{
             setIshidden(!ishidden)
           }}><FiX /></button>
