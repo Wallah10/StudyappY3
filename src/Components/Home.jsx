@@ -42,7 +42,7 @@ function Home() {
             <img src='https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600'
             className='h-[100vh] relative '></img>
         </div>
-           <div className='absolute top-1/2 left-1/2 transform m-1 -translate-x-1/2 -translate-y-1/2 p-1 rounded w-[90%] bg-[#f3e6b8]'>
+           <div className='absolute top-[12vh] left-1/2 transform m-1 -translate-x-1/2 -translate-y-1/2 p-1 rounded w-[90%] bg-[#f3e6b8]'>
             <h1 className='text-[#cca281] text-2xl font-bold text-center bg-[#24242b] rounded p-1'>Y3 S2 STUDY ZONE</h1>
             <p className='text-justify text-sm p-3 tracking-normal text-[#242323] font-sans m-1 bg-[#f3e6b8]'>
             This website is a dedicated study platform designed specifically for third-year Education students
